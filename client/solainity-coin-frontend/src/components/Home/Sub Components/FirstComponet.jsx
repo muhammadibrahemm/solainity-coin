@@ -10,12 +10,12 @@ export const FirstComponent = () => {
 
             {/* Main text */}
             <div className="text-white flex flex-col justify-center items-center text-center sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
-                <p>Earn Coins While</p>
-                <p>You Learn</p>
+                <p className="font-bold">Earn Coins While</p>
+                <p className="font-bold">You Learn</p>
             </div>
 
             {/* Subtext */}
-            <div className="text-cyan-400 flex flex-col justify-center items-center text-center sm:text-base md:text-lg lg:text-xl xl:text-2xl">
+            <div className="text-cyan-400 flex flex-col justify-center items-center text-center sm:text-base md:text-lg lg:text-xl xl:text-2xl ">
                 <p>Complete engaging tasks and watch your coin balance</p>
                 <p>grow. Redeem coins for exciting rewards</p>
             </div>
